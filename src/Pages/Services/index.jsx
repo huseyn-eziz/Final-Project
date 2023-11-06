@@ -5,6 +5,7 @@ const Services = () => {
   return (
     <div>
       <Navigation/>
+      <h1>Services</h1>
     </div>
   )
 }

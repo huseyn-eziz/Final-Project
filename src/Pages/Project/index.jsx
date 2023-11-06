@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <div>
       <Navigation/>
-      
+      <h1>Project</h1>
     </div>
   )
 }

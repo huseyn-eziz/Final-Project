@@ -1,0 +1,19 @@
+.banner {
+    height: calc(100vh -  60px);
+    background-image: url('../../../public/Photo.jpg');
+    background-position: 100% 100%;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    border-radius: 0 0 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-size: 55px;
+}
+.description{
+    font-size: 22px;
+    line-height: 33px;
+    margin: 15px 0;
+}

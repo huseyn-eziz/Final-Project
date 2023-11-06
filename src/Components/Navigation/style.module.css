@@ -1,37 +1,38 @@
-header{
+header {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-}
-.navbar{
+  }
+  
+  .navbar {
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.navbar .navLink{
-    color:black;
+  }
+  
+  .navbar .navLink {
+    color: #212121;
     margin-left: 20px;
     position: relative;
-}
-
-.navbar .navLink::after{
-    content: '';
+  }
+  
+  .navbar .navLink::after {
+    content: "";
     width: 0%;
     height: 3px;
-    background-color: rgb(113, 122, 13);
+    background-color: #cda274;
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     bottom: -5px;
     border-radius: 10px;
-    transition: 0.5s d;
-    
-}
-.navbar .navLink:hover::after{
+    transition: 0.3s;
+  }
+  
+  .navbar .navLink:hover::after {
     width: 100%;
-}
-
-.navbar .active::after{
+  }
+  
+  .navbar .active::after {
     width: 100%;
-}
+  }
