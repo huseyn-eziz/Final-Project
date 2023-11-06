@@ -1,37 +1,37 @@
-.button{
+.button {
     padding: 13px 26px;
     border-radius: 18px;
     font-size: 18px;
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     gap: 5px;
     cursor: pointer;
-    border: 1px solid ;
+    border: 1px solid;
     box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
     color: white;
     border-color: transparent;
     transition: all .3s ease;
-    &:hover{
+
+    &:hover {
         background-color: transparent;
         transform: scale(1.1);
-
     }
 }
 
 
-.dark{
+.dark {
     background-color: #292f36;
-    &:hover{
-        background-color: transparent;
-        color: #292f36;
+
+    &:hover {
+        color: white;
         border-color: #292f36;
     }
 }
 
-.gold{
+.gold {
     background-color: #CDA274;
-    &:hover{
-        background-color: transparent;
-        color: #292f36;
+
+    &:hover {
         border-color: #CDA274;
     }
 }
