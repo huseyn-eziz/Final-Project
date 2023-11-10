@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
 import Stylishly from "../../Components/Stylishly";
 import Customers from "../../Components/Customers";
+import AdsBannerSlider from "../../Components/AdsBannerSlider";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
       <WorkPlanCards />
       <Stylishly />
       <Customers />
+      <AdsBannerSlider/>
     </motion.div>
   );
 };
