@@ -1,0 +1,46 @@
+.customers {
+  background-color: #f4f0ec;
+  border-radius: 30px;
+}
+
+.customers .title {
+  color: #292f36;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 53px;
+  font-weight: 400;
+}
+
+.customer {
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+  height: 100%;
+}
+
+.customer img {
+  border-radius: 50%;
+}
+
+.avatarAndName {
+  display: flex;
+}
+
+.customer .description {
+  color: #4d5053;
+  font-family: Jost;
+  font-size: 18px;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.22px;
+  margin-top: 15px;
+}
+
+.address {
+  color: #4d5053;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.18px;
+}
